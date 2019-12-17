@@ -1,0 +1,122 @@
+#img1{
+  margin-left: 1em;
+  height: 5em;
+  width: 13em;
+}
+#img2{
+    margin-left: 1.3em;
+    height: 20vh;
+}
+.na{
+  color: #818181;
+  font-size: 2em;
+  text-align: center;
+}
+
+button {
+    border:none;
+    background-color: #09d7ec;
+    color : #f1f1f1;
+    font-size : 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 0px 5px;
+}
+button:hover {
+    background-color: #0092a1;
+}
+body {
+  /* background-image: repeating-linear-gradient(pink,rgb(7, 230, 185)); */
+           background-image: url('images.jfif');
+  background-repeat: no-repeat;
+  background-size:100%;
+    margin:0px 0px;
+}
+#display {
+    font-size : 130px;
+}
+
+#container {
+  display: flex;
+}
+#right {
+  flex: 5;
+  padding: 40px;
+  padding-top: 0px;
+  text-align: center;
+  /* background-image: linear-gradient(to right, pink, #00d4ff); */
+}
+
+.logo {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+#logo-photo {
+  width: 75px;
+  height: auto;
+}
+#logo-text {
+  display: inline-block;
+  margin: 0px 0px;
+  font-size: 35px;
+}
+
+#right {
+  flex: 5;
+  padding: 40px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+/* navbar */
+/* The sidebar menu */
+.sidenav {
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #09d7ec; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  flex: 1;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  flex: 1;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #0092a1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+#description {
+  font-size: 20px;
+  width : 65%;
+  margin-left: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

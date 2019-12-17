@@ -1,0 +1,129 @@
+.container{
+    display:flex;
+}
+
+/* navbar */
+/* The sidebar menu */
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #09d7ec; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    flex:1;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  #img1{
+    margin-left: 1em;
+    height: 5em;
+    width: 13em;
+  }
+  #img2{
+      margin-left: 1.3em;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #0092a1;
+  }
+  .na{
+      color: #818181;
+      font-size: 2em;
+      text-align: center;
+  }
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  
+  body{
+    margin-top:0%;
+    margin-left: 0%;
+    background-image: url('images.jfif');
+    background-repeat: no-repeat;
+    background-size:100%;
+  }
+  
+.other{
+    flex: 5;
+    display:flex;
+    height: 100vh;
+}
+.yp{
+    border-radius: 10px;
+    margin-top: 1em;
+    padding: 1%;
+    margin-bottom: 75em;
+    margin-left: 2%;
+    display: flex;
+    font-family:fantasy;
+    font-size: 35px;
+    color:black;
+}
+.le{
+    margin-top: 15vh;
+    display: inline-block;
+    flex:1;
+    font-family: fantasy;
+}
+.nyc{
+    margin-top: 15vh;
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    flex:5;
+    font-family: fantasy;
+}
+#ta{
+display: inline-block;
+width: 70%;
+}
+#ta1{
+    display: inline-block;
+    width: 20%;
+}
+#ta2{
+    width: 70%;
+}
+#ed{
+    margin-left: 7vh;
+    width: 4em;
+    font-family: fantasy;
+}
+img{
+    margin-left: 1%;
+    height: 20vh;
+    width: 20vh;
+}
+#nm{
+  width: 30%;
+}
+#cl{
+  width: 40%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Profile page
+        </title>
+        <link rel="stylesheet" href="profile_style.css">
+    </head>
+    <body>
+            <div class="container">
+                    <div class="sidenav">
+                            <img id="img1" src="Grow.jpg">
+                            <a href="profile.html"><img id="img2" src="Profile.png"></a>
+                            <div class="na">Name</div>
+                            <a href="home.html">Home</a>
+                            <a href="mycourses.html">My Courses</a>
+                            <a href="timetable.html">Attendance</a>
+                            <!-- <a href="#">Results</a> -->
+                            <!-- <a href="#">Schedule</a> -->
+                            <a href="todo_list.html">Todo List</a>
+                            <a href="pomodaro.html">Pomodaro</a>
+                            <!-- <a href="#">Calender</a> -->
+                    </div>        
+            <div class="other">
+                <div class="yp">Your Profile</div><br/>
+                <div class="le">
+                    <div><img src="Profile.png" alt=""></div>
+                </div>
+                <div class="nyc">
+                    <div>Name</div>
+                    <!-- <div><textarea id="ta" cols="20" rows="1">Name</textarea></div> -->
+                    <div><input type="text" name="theName" value="Name" id="nm"
+                        onblur="if(this.value==''){ this.value='Name'; this.style.color='#BBB';}"
+                        onfocus="if(this.value=='Name'){ this.value=''; this.style.color='#000';}"
+                        style="color:#BBB;" /></div>
+                    <div>Year</div>
+                    <div><input type="text" name="theName" value="Year"
+                        onblur="if(this.value==''){ this.value='Year'; this.style.color='#BBB';}"
+                        onfocus="if(this.value=='Year'){ this.value=''; this.style.color='#000';}"
+                        style="color:#BBB;" /></div>
+                    <div>College</div>
+                    <div><input type="text" name="theName" value="College" id="cl"
+                        onblur="if(this.value==''){ this.value='College'; this.style.color='#BBB';}"
+                        onfocus="if(this.value=='College'){ this.value=''; this.style.color='#000';}"
+                        style="color:#BBB;" /></div>
+                </div>  
+            </div>
+
+    </body>
+</html>
