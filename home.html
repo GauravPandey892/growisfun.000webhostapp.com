@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Homepage
+    </title>
+    <link rel="stylesheet" href="style_home.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidenav">
+            <img id="img1" src="Grow.jpg">
+            <a href="profile.html"><img id="img2" src="Profile.png"></a>
+            <div class="na">Name</div>
+            <a href="home.html">Home</a>
+            <a href="mycourses.html">My Courses</a>
+            <a href="timetable.html">Attendance</a>
+            <a href="todo_list.html">Todo List</a>
+            <a href="pomodaro.html">Pomodaro</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="other">
+            <div class="hn">Hello</div><br />
+            <div class="fr">What is your Question Today?</div>
+            <textarea id="message" placeholder="Type Here"></textarea>
+            <input class="btn2" type="button" value="Post" onClick="stat()" />
+            <div id="ldiv"></div>
+            <div class="ma">Most liked Article of the Week</div>
+            <div class="qn">How to get started for web development?</p>
+                <div class="ans">
+                    To get started for web development you can start learning HTML, CSS, Javascript you can refer the
+                    website called <a href="https://www.w3schools.com/">w3schools</a>
+                </div>
+                <div class="bu">By User</div>
+                <div class="like-content">
+                    <button class="btn-secondary like-review" onclick="counter">
+                        <i class="fa fa-heart" aria-hidden="true"></i> Like
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="home_fn.js"></script>
+</body>
+
+</html>

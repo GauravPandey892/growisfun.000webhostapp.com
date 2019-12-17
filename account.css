@@ -1,0 +1,126 @@
+body{
+    background-image: url("13.jpg");
+}
+div.box{
+    background-color: white;
+    width:  1100px;
+    height: 700px;
+    border: solid 3px lightgrey;
+    margin-top: 2cm;  
+    margin-left:30vh;
+    border-radius: 2%;
+    background-image: url("signup-box.jpg");
+    background-position: 200px 10px;
+    align-self: center;
+    background-repeat: no-repeat;
+}
+div.box h2{
+    text-align: center;
+    margin-top:1.5cm;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-style:bold;
+    font-weight: 700;
+    font-size: 2em;
+    opacity:0.65;
+}
+form.Generic input{  
+  width: 20%;
+  padding: 12px 20px;
+  display: inline-block;
+  margin: 8px 2px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  align-content: center;    
+  opacity: .65; 
+}
+form.Generic #ln{  
+    margin-left:14.5cm;    
+}
+form.Generic input[name="first"]{
+    margin-top:1.5cm;
+}
+div.box #dp{
+    border-radius:50%;
+    margin-left: 5cm;
+    margin-top:-12.75cm;
+    height:3.5cm;
+    width:3.5cm;  
+    opacity: 0.7;
+}
+form.Generic input[type="submit"]{
+    margin-left: 18cm;
+    margin-top: 1.5cm;
+    background-color: black;
+    color:whitesmoke;  
+    border-radius:15%;
+    width:4cm;
+    opacity:1;
+}       
+form.Generic input[type="submit"]:hover{
+    opacity:.6;
+}    
+div.box button#dp{
+    margin-left:-3.6cm;
+    margin-top:-14.5cm;
+    background-color:transparent;
+}
+div.box button#dp:hover{
+    background-color:#ccc;
+    opacity:0.3;
+}
+.container {
+    position: relative;
+    height:.5cm;
+    width:.5cm;
+    margin-left:25.5cm;
+    margin-top:-1cm;
+  }
+  .container #new{
+    height:auto;
+    width:100%;
+    margin-left:0cm;
+    margin-top:0cm;
+    background-image: transparent;
+    opacity:0.5;
+  }
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+form.Generic select{
+    width: 20%;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 8px 2px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    align-content: center;    
+    opacity: 0.4; 
+}
+form.Generic select:hover{
+    opacity:0.7;
+}
+form.Generic #a{
+    background-color: black;
+    color:whitesmoke;
+    border-radius:15%;
+    height:1cm;
+    width:4cm;
+    text-align: center;
+    margin-top:-1cm;
+    margin-left:4.7cm;
+    opacity:0.6;
+    pointer-events: none;
+}
+form.Generic #a:hover{
+    opacity:0.6;
+}
+

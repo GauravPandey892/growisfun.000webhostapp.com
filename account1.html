@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="account.css">
+    <style type="text/css">
+        form.Generic input[type="email"] {
+            width: 30%;
+        }
+
+        form.Generic input[type="tel"] {
+            width: 25%;
+        }
+
+        form.Generic input[type="radio"] {
+            width: 5%;
+            padding: 0%;
+            display: initial;
+            margin-top: 0.4cm;
+            border: none;
+            border-radius: none;
+            align-content: center;
+        }
+
+        form.Generic #bt {
+            background-color: black;
+            color: whitesmoke;
+            border-radius: 15%;
+            height: 1cm;
+            width: 4cm;
+            text-align: center;
+            margin-top: -4.7cm;
+            margin-left: 4.7cm;
+        }
+
+        form.Generic #bt:hover {
+            opacity: 0.6;
+        }
+
+        body {
+            background-image: url("temp.png");
+            background-size: 100%;
+        }
+
+        /* #a {
+            padding: 5px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h2> Create Personal Account </h2>
+        <form class="Generic" action='signup.php' method='POST'>
+            <input type="text" id="ln" placeholder="First Name" name="first_name" required>
+            <input type="text" placeholder="Last Name" name='last_name' required><br>
+            <input type="email" id="ln" placeholder="Username" name='username' required><br>
+            <input class="password" type="password" id="ln" placeholder="Password" name='password' required>
+            <input id="ln" type="text" placeholder="College Name" name='college_name' required>
+            <input id="ln" type="text" placeholder="Year" name='year' required>
+
+            <div class="container">
+                <img src="4.png" id="new">
+                <input type="button" class="btn" onclick="myFunction()">
+            </div>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <img id="dp" src="18.png">
+        <button id="dp"> </button><br>
+        <input id='fileid' type='file' hidden />
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("password");
+            for (i = 0; i < 2; i++) {
+                if (x[i].type === "password") {
+                    x[i].type = "text";
+                    var p = document.getElementById("new");
+                    p.src = "3.jpeg"
+                }
+                else {
+                    x[i].type = "password";
+                    var p = document.getElementById("new");
+                    p.src = "4.png"
+                }
+            }
+        }
+       
+    </script>
+</body>
+
+</html>
