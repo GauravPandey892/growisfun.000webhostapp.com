@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>
+        Time Table
+    </title>
+    <link rel="stylesheet" href="timetable_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidenav">
+            <img id="img1" src="Grow.jpg">
+            <a href="profile.html"><img id="img2" src="Profile.png"></a>
+            <div class="na">Name</div>
+            <a href="#">Home</a>
+
+            <a href="mycourses.html">My Courses</a>
+            <a href="timetable.html">Attendance</a>
+            <!-- <a href="#">Results</a> -->
+            <!-- <a href="#">Schedule</a> -->
+            <a href="todo_list.html">Todo List</a>
+            <a href="pomodaro.html">Pomodaro</a>
+            <a href="about.html">About</a>
+            <!-- <a href="#">Calender</a> -->
+        </div>
+        <div class="other">
+            <p>Time Table</p><br>
+            <p id="rule">Single Click => Present</p>
+            <p id='rule1'>Double Click => Absent</p>
+            <table id="tb" border="dark">
+                <tr>
+                    <td>
+                        Hour number
+                    </td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td><button class="mon" ondblclick="onc(event)" onclick="onc1(event)">Monday</button></td>
+                    <td><button class="phy" ondblclick="onc(event)" onclick="onc1(event)">Phy</button></td>
+                    <td><button class="eee" ondblclick="onc(event)" onclick="onc1(event)">EEE</button></td>
+                    <td><button class="ece" ondblclick="onc(event)" onclick="onc1(event)">ECE</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="mech" ondblclick="onc(event)" onclick="onc1(event)">Mech</button></td>
+                </tr>
+                <tr>
+                    <td><button ondblclick="onc(event)" onclick="onc1(event)">Tuesday</button></td>
+                    <td><button class="mech" ondblclick="onc(event)" onclick="onc1(event)">Mech</button></td>
+                    <td><button class="mech" ondblclick="onc(event)" onclick="onc1(event)">Mech</button></td>
+                    <td><button class="mechl" ondblclick="onc(event)" onclick="onc1(event)">Mech Lab</button></td>
+                    <td><button class="mechl" ondblclick="onc(event)" onclick="onc1(event)">Mech Lab</button></td>
+                    <td><button class="eee" ondblclick="onc(event)" onclick="onc1(event)">EEE</button></td>
+                    <td><button class="eee" ondblclick="onc(event)" onclick="onc1(event)">EEE</button></td>
+                </tr>
+                <tr>
+                    <td><button ondblclick="onc(event)" onclick="onc1(event)">Wednesday</button></td>
+                    <td><button class="phy" ondblclick="onc(event)" onclick="onc1(event)">Phy</button></td>
+                    <td><button class="phy" ondblclick="onc(event)" onclick="onc1(event)">Phy</button></td>
+                    <td><button class="phyl" ondblclick="onc(event)" onclick="onc1(event)">Phy Lab</button></td>
+                    <td><button class="phyl" ondblclick="onc(event)" onclick="onc1(event)">Phy Lab</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="comp" ondblclick="onc(event)" onclick="onc1(event)">Comp</button></td>>
+                </tr>
+                <tr>
+                    <td><button ondblclick="onc(event)" onclick="onc1(event)">Thursday</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="comp" ondblclick="onc(event)" onclick="onc1(event)">Comp</button></td>
+                    <td><button class="comp" ondblclick="onc(event)" onclick="onc1(event)">Comp</button></td>
+                    <td><button class="eee" ondblclick="onc(event)" onclick="onc1(event)">EEE</button></td>
+                    <td><button class="ece" ondblclick="onc(event)" onclick="onc1(event)">ECE</button></td>
+                </tr>
+                <tr>
+                    <td><button ondblclick="onc(event)" onclick="onc1(event)">Friday</button></td>
+                    <td><button class="chem" ondblclick="onc(event)" onclick="onc1(event)">Chem</button></td>
+                    <td><button class="chem" ondblclick="onc(event)" onclick="onc1(event)">Chem</button></td>
+                    <td><button class="ece" ondblclick="onc(event)" onclick="onc1(event)">ECE</button></td>
+                    <td><button class="ece" ondblclick="onc(event)" onclick="onc1(event)">ECE</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="comp" ondblclick="onc(event)" onclick="onc1(event)">Comp</button></td>
+                </tr>
+                <tr>
+                    <td><button ondblclick="onc(event)" onclick="onc1(event)">Saturday</button></td>
+                    <td><button class="math" ondblclick="onc(event)" onclick="onc1(event)">Math</button></td>
+                    <td><button class="comp" ondblclick="onc(event)" onclick="onc1(event)">Comp</button></td>
+                    <td><button class="chem" ondblclick="onc(event)" onclick="onc1(event)">Chem</button></td>
+                    <td><button class="chem" ondblclick="onc(event)" onclick="onc1(event)">Chem</button></td>
+                    <td><button class="eee" ondblclick="onc(event)" onclick="onc1(event)">EEE</button></td>
+                    <td><button class="eee" ondblclick="onc(event)" onclick="onc1(event)">EEE</button></td>
+                </tr>
+            </table>
+            <p>Attendance</p>
+            <table id="tb2" border="dark">
+                <tr>
+                    <td>Subject</td>
+                    <td>Attendance</td>
+                </tr>
+                <tr>
+                    <td>Phy</td>
+                    <td><span id="ta1"></span></td>
+                </tr>
+                <tr>
+                    <td>Phy Lab</td>
+                    <td><span id="ta2"></span></td>
+                </tr>
+                <tr>
+                    <td>EEE</td>
+                    <td><span id="ta3"></span></td>
+                </tr>
+                <tr>
+                    <td>ECE</td>
+                    <td><span id="ta4"></span></td>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td><span id="ta5"></span></td>
+                </tr>
+                <tr>
+                    <td>Mech</td>
+                    <td><span id="ta6"></span></td>
+                </tr>
+                <tr>
+                    <td>Mech Lab</td>
+                    <td><span id="ta7"></span></td>
+                </tr>
+                <tr>
+                    <td>Comp</td>
+                    <td><span id="ta8"></span></td>
+                </tr>
+                <tr>
+                    <td>Chem</td>
+                    <td><span id="ta9"></span></td>
+                </tr>
+            </table>
+        </div>
+        <script src="fn1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css_index.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="sidenav">
+      <img id="img1" src="Grow.jpg">
+      <a href="profile.html"><img id="img2" src="Profile.png"></a>
+      <div class="na">Name</div>
+      <a href="home.html">Home</a>
+
+      <a href="mycourses.html">My Courses</a>
+      <a href="timetable.html">Attendance</a>
+      <!-- <a href="#">Results</a> -->
+      <!-- <a href="#">Schedule</a> -->
+      <a href="todo_list.html">Todo List</a>
+      <a href="pomodaro.html">Pomodaro</a>
+      <a href="about.html">About</a>
+      <!-- <a href="#">Calender</a> -->
+    </div>
+
+    <div id="right">
+      <div class="header">
+        <h2 style="margin:5px">To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <ul id="myUL">
+        <!-- <li class="checked">Go through DataFlair's JavaScript tutorials</li>
+                  <li>Practise the codes</li>
+                  <li>Read a book on JavaScript</li>
+                  <li class="checked">Organise my notes</li>
+                  <li>Create JavaScript projects</li>
+                  <li>Take quiz</li>
+                  <li>Comprehend interview questions</li>-->
+      </ul>
+      <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+      <script type="text/javascript" src="js_index.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>

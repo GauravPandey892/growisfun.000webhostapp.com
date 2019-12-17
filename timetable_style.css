@@ -1,0 +1,123 @@
+.container{
+    display:flex;
+}
+
+body {
+  margin-left: 0%;
+  margin-top:0%;
+  /* background-image: linear-gradient(to right,pink,#15f8a4); */
+    background-image: url('images.jfif');
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+/* navbar */
+/* The sidebar menu */
+.sidenav {
+    height: 115vh; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    bottom: 0;
+    background-color: #09d7ec; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-bottom: 0px;
+    border:0;
+    flex:1;
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  #img1{
+    margin-left: 1em;
+    height: 5em;
+    width: 13em;
+  }
+  #img2{
+      margin-left: 1.3em;
+      height: 20vh;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #0092a1;
+  }
+  .na{
+      color: #818181;
+      font-size: 2em;
+      text-align: center;
+  }
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  
+  
+.other{
+    flex: 5;
+    height: 100vh;
+    /* background-image: linear-gradient(to right,pink,#15f8a4); */
+}
+.active {
+    background-color: #7FFF00;  
+  }
+  
+  .inactive {
+    background-color: #7FFF00;
+  }
+p{
+    background:#09d7ec;
+    display: inline-block;
+    margin-left: 2em;
+    border-radius: 5px;
+    padding-block: 1%;
+    font-family: fantasy;
+    font-size:20px;
+    padding: 1%;
+    margin-bottom: 0.3%;
+}
+table{
+    margin-left: 3em;
+    padding: 1%;
+}
+#tb{
+  border:solid 1px black;
+}
+td{
+    width: 11vh;
+    font-family: fantasy;
+    padding: 1%;
+}
+button{
+    width:10vh;
+    background-color: white;
+    padding: 1%; 
+    text-align: center;
+}
+#tb2{
+    margin-top:1em;
+    padding: 3px;
+}
+button{
+  padding: 1%;
+}
