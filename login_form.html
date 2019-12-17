@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login_style.css"> 
+</head>
+<body>
+<div class="sidenav">
+    <img id="img1" src="Grow.jpg">
+    <a href="profile.html"><img id="img2" src="Profile.png"></a>
+    <div class="na">Name</div>                    
+    <a href="home.html">Home</a>
+    <a href="login_form.html">Login</a>
+    <a href="mycourses.html">My Courses</a>
+    <a href="timetable.html">Attendance</a>
+    <a href="todo_list.html">Todo List</a>
+    <a href="pomodaro.html">Pomodaro</a>
+</div>
+<p class="btn" btn="primary">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto" align= data-toggel="modal">Login</button>
+</p>
+<div id="id01" class="modal fade">
+  
+  <form class="modal-content " action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+     <!----img src="img_avatar2.png" alt="Avatar" class="avatar"-->
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"> <a href="gmail.com"> Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+</script>
+
+</body>
+</html>
